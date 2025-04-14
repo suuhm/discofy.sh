@@ -21,15 +21,17 @@ Discofy.sh is a tiny, bash-friendly tool that lets you send formatted messages t
 
 1. Download the script:
 
+Needs `curl` and `jq`
+
 ```bash
-curl -o discofy.sh https://raw.githubusercontent.com/suuhm/discofy.sh
+curl -o discofy.sh https://raw.githubusercontent.com/suuhm/discofy.sh/refs/heads/main/discofy.sh
 chmod +x discofy.sh
 ```
 
 2. Set your webhook URL in the script or as an env var:
 
 ```bash
-export DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/..."
+export DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/123456..."
 ```
 
 ---
